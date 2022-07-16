@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="368dp"
+        android:layout_height="512dp"
+        android:layout_gravity="center|center_horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <Button
+        android:id="@+id/btngrabar"
+        android:layout_width="280dp"
+        android:layout_height="43dp"
+        android:background="#FF9800"
+        android:text="Grabar Video" />
+
+    <Button
+        android:id="@+id/btnguardar"
+        android:layout_width="275dp"
+        android:layout_height="42dp"
+        android:background="#FF9800"
+        android:onClick="playvideo"
+        android:text="Salvar Video" />
+</LinearLayout>
